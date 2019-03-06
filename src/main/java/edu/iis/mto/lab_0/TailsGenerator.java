@@ -7,9 +7,9 @@ public class TailsGenerator {
 
     public List<String> tails(String value) {
 
-        if (value == null)
+        if (value == null) {
             return new ArrayList<>();
-        else {
+        } else {
             List<String> list = new ArrayList<>();
             for (int i = 0; i <= value.length(); i++) {
                 list.add(value.substring(i));
